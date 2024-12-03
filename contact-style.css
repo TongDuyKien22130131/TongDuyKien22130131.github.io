@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #404040;
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 16px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background-color: #404040;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 22px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 22px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
